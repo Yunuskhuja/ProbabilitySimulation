@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SecondPart">
+    <children>
+        <Label layoutX="40.0" layoutY="31.0" text="Number of trials" />
+        <Label layoutX="31.0" layoutY="84.0" text="Length of the road" />
+        <JFXTextField fx:id="trianNum" layoutX="217.0" layoutY="27.0" />
+        <JFXTextField fx:id="lengthOfRoad" layoutX="217.0" layoutY="80.0" />
+        <JFXButton buttonType="RAISED" layoutX="407.0" layoutY="55.0" onAction="#CalculateBtn" prefHeight="50.0" prefWidth="167.0" style="-fx-background-color: #00E676;" text="Calculate" />
+        <Label layoutX="83.0" layoutY="241.0" text="Result: " />
+        <Label fx:id="resultLabel" layoutX="211.0" layoutY="241.0" text="Label" />
+      <JFXButton layoutX="463.0" layoutY="335.0" onAction="#gotopart1" prefHeight="50.0" prefWidth="122.0" style="-fx-background-color: #673AB7;" text="Go to Part 1" />
+    </children>
+</AnchorPane>
